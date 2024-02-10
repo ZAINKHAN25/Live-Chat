@@ -22,13 +22,13 @@
 }
 
 .mainMessageDiv {
-    /* flex: 1; */
     display: flex;
     justify-content: center;
     flex-direction: column;
+    padding: 20px 0;
     overflow-x: hidden;
     width: 100%;
-    padding: 10px 20px;
+    overflow-x: hidden;
 }
 
 .inputDivOfMessage {
@@ -71,12 +71,12 @@
 
 .otherMessage {
     background-color: orange;
-    margin-left: 0 !important;
+    margin-left: 2vw !important;
 }
 
 .myMessage {
     background-color: yellow;
-    margin-right: 0 !important;
+    margin-right: 2vw !important;
 }
 
 .msgBx {
@@ -84,7 +84,7 @@
     display: flex;
     flex-direction: column;
     margin: 10px auto;
-    padding: 10px 15px;
+    padding: 5px 25px;
     border-radius: 15px;
 }
 
