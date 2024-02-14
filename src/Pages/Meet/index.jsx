@@ -12,49 +12,49 @@ function Meet() {
 
         <div className="otherMessage msgBx" >
           <span className='messageName'>Huzaifa</span>
-          <span className='messageMesage'>Hello!</span>
+          <p className='messageMesage'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam omnis qui maiores nulla aperiam dolore dolor nobis at, error nam praesentium autem, sunt molestiae impedit distinctio labore suscipit illum asperiores ex minima, odit amet fuga consequatur est! Veniam minus sit omnis, corporis assumenda nostrum? Iusto beatae saepe ipsum minima ratione!</p>
           <span className="messageTime">11:05 PM</span>
         </div>
 
         <div className="myMessage  msgBx">
           <span className='messageName'>Zain</span>
-          <span className='messageMesage'>How Are You</span>
+          <p className='messageMesage'>How Are You</p>
           <span className="messageTime">11:06 PM</span>
         </div>
 
         <div className="otherMessage  msgBx">
           <span className='messageName'>Huzaifa</span>
-          <span className='messageMesage'>Well I was saying how is your Project</span>
+          <p className='messageMesage'>Well I was saying how is your Project</p>
           <span className="messageTime">11:07 PM</span>
         </div>
 
         <div className="myMessage  msgBx">
           <span className='messageName'>Zain</span>
-          <span className='messageMesage'>How Are You</span>
+          <p className='messageMesage'>How Are You</p>
           <span className="messageTime">11:06 PM</span>
         </div>
 
         <div className="otherMessage  msgBx">
           <span className='messageName'>Huzaifa</span>
-          <span className='messageMesage'>Well I was saying how is your Project</span>
+          <p className='messageMesage'>Well I was saying how is your Project</p>
           <span className="messageTime">11:07 PM</span>
         </div>
         
         <div className="otherMessage  msgBx">
           <span className='messageName'>Huzaifa</span>
-          <span className='messageMesage'>Well I was saying how is your Project</span>
+          <p className='messageMesage'>Well I was saying how is your Project</p>
           <span className="messageTime">11:07 PM</span>
         </div>
 
         <div className="myMessage  msgBx">
           <span className='messageName'>Zain</span>
-          <span className='messageMesage'>How Are You</span>
+          <p className='messageMesage'>How Are You</p>
           <span className="messageTime">11:06 PM</span>
         </div>
 
         <div className="otherMessage  msgBx">
           <span className='messageName'>Huzaifa</span>
-          <span className='messageMesage'>Well I was saying how is your Project</span>
+          <p className='messageMesage'>Well I was saying how is your Project</p>
           <span className="messageTime">11:07 PM</span>
         </div>
 
