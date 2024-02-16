@@ -39,7 +39,7 @@ function Meet() {
           <p className='messageMesage'>Well I was saying how is your Project</p>
           <span className="messageTime">11:07 PM</span>
         </div>
-        
+
         <div className="otherMessage  msgBx">
           <span className='messageName'>Huzaifa</span>
           <p className='messageMesage'>Well I was saying how is your Project</p>
@@ -54,7 +54,19 @@ function Meet() {
 
         <div className="otherMessage  msgBx">
           <span className='messageName'>Huzaifa</span>
-          <p className='messageMesage'>Well I was saying how is your Project</p>
+          <p className='messageMesage'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deleniti nostrum quam consequuntur aliquam, optio excepturi adipisci ad nobis error cupiditate?</p>
+          <span className="messageTime">11:07 PM</span>
+        </div>
+
+        <div className="myMessage  msgBx">
+          <span className='messageName'>Zain</span>
+          <p className='messageMesage'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo quidem enim omnis iusto dolores similique tempore quam asperiores mollitia ipsum. Sit perspiciatis fugiat, obcaecati eius ab modi voluptas voluptate placeat deleniti! Voluptatum delectus magnam tenetur quibusdam esse enim, error molestiae omnis praesentium voluptates quia ipsam inventore, quaerat, quae sunt reiciendis.</p>
+          <span className="messageTime">11:06 PM</span>
+        </div>
+
+        <div className="otherMessage  msgBx">
+          <span className='messageName'>Huzaifa</span>
+          <p className='messageMesage'>Hy Every one!</p>
           <span className="messageTime">11:07 PM</span>
         </div>
 
@@ -70,4 +82,4 @@ function Meet() {
   )
 }
 
-export default Meet
+export default Meet;
