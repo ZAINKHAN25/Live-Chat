@@ -1,18 +1,17 @@
 import React from 'react';
 import "./App.css"
-import { useNavigate } from 'react-router-dom';
+// import { useNavigate } from 'react-router-dom';
 
 function WecomePage() {
-  const navigateTo = useNavigate();
+  // const navigateTo = useNavigate();
   return (
     <div className='WelcomeBody'>
-      <div className="cardWelcomePage">
-        <h2>Join A Chat</h2>
-        <input placeholder='Your Name' type="text" className="InputJoinName" />
-        <input placeholder='Your Room Id' type="text" className="InputJoinRoomId" />
-        <input type="button" value="Join A Room" className='CreateARoomButn mt-4' onClick={()=> navigateTo("/meet")} />
-        <span className='my-1'>Or</span>
-        <input type="button" value="Creatmeet A Room" onClick={()=> navigateTo("/create-room")} className='CreateARoomButn' />
+      <h1 className='h1ofwelocmebody'>Video Calls and meetings for everyone</h1>
+      <h5 className='h5ofwelocmebody'>Zain Meet provides secure, easy-to-use video calls and meetings for everyone, on any device.</h5>
+      <div className="mainMeetArea mt-3">
+        <button className="newMeetingBtn px-5 py-4"><i class="fa-solid fa-video me-1"></i> New Meeting</button>
+        <input type="text" placeholder='Enter a code or link' className="codeOrLinkInput px-4 py-3 mx-4" />
+        <button className="joinMeetBtn">Join</button>
       </div>
     </div>
   )

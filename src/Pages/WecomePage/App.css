@@ -2,55 +2,32 @@
     width: 100vw;
     height: 100vh;
     display: flex;
-    justify-content: center;
     align-items: center;
-}
-
-.cardWelcomePage {
-    display: flex;
+    justify-content: center;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: rgb(70, 69, 71);
-    color: white;
-    border: 2px solid white;
-    border-radius: 10px;
-    width: 400px;
-    padding: 30px;
-    box-shadow: 1px 1px 10px rgba(255, 255, 255, 80%);
 }
 
-.InputJoinName,
-.InputJoinRoomId {
-    width: 100%;
-    padding: 10px 20px;
-    margin: 5px auto;
-    color: white;
-    background-color: rgb(41, 41, 41);
-    border-radius: 6px;
-    border-bottom: 2px solid white;
-    border-right: none;
-    outline: none;
-    transition: all .4s;
+.h1ofwelocmebody {
+    font-size: 40px;
+    width: 590px;
+    margin-bottom: 40px;
+    font-family: sans-serif;
+    text-align: center;
+    font-weight: 550;
 }
 
-.InputJoinName:focus,
-.InputJoinRoomId:focus {
-    border-bottom: 2px solid orange;
+.h5ofwelocmebody {
+    font-size: 20px;
+    width: 680px;
+    font-family: sans-serif;
+    text-align: center;
+    font-weight: 350;
 }
 
-.CreateARoomButn{
-    width: 100%;
-    background-color: orange;
+.newMeetingBtn {
+    background-color: #1a73e8;
     color: white;
-    padding: 10px 20px;
     border: none;
     border-radius: 5px;
-    font-weight: bold;
-    font-size: large;
-    transition: all .5s;
-}
-
-.CreateARoomButn:hover{
-    background-color: rgb(250, 179, 46);
+    font-weight: 600;
 }
