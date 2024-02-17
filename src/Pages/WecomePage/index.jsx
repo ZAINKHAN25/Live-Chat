@@ -9,7 +9,7 @@ function WecomePage() {
       <h1 className='h1ofwelocmebody'>Video Calls and meetings for everyone</h1>
       <h5 className='h5ofwelocmebody'>Zain Meet provides secure, easy-to-use video calls and meetings for everyone, on any device.</h5>
       <div className="mainMeetArea mt-3">
-        <button className="newMeetingBtn px-5 py-4"><i class="fa-solid fa-video me-1"></i> New Meeting</button>
+        <button className="newMeetingBtn px-5 py-3"><i class="fa-solid fa-video me-1"></i> New Meeting</button>
         <input type="text" placeholder='Enter a code or link' className="codeOrLinkInput px-4 py-3 mx-4" />
         <button className="joinMeetBtn">Join</button>
       </div>
