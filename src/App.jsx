@@ -2,7 +2,6 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import './App.css';
 
 import WecomePage from "./Pages/WecomePage/index.jsx"
-import CreateARoom from "./Pages/CreateARoom/index.jsx"
 import Meet from "./Pages/Meet/index.jsx"
 import NotFound from "./Pages/NotFound/index.jsx"
 
@@ -11,7 +10,6 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<WecomePage />} />
-        <Route path="/create-room" element={<CreateARoom />} />
         <Route path="/meet" element={<Meet />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
